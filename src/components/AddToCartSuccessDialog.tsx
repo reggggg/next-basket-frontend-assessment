@@ -8,7 +8,7 @@ import {
   DialogClose
 } from "@/components/ui/dialog"
 import { TProduct } from '@/types'
-import { formatPrice } from '@/utils/helpers'
+import { formatPrice } from '@/lib/helpers'
 
 export default function AddToCartSuccessDialog({
   isOpen = false,

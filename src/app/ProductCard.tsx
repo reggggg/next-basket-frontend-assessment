@@ -1,7 +1,7 @@
 import React from 'react'
 import { TProduct } from '@/types'
 import Image from 'next/image'
-import { formatPrice, capitalizeString } from '@/utils/helpers';
+import { formatPrice, capitalizeString } from '@/lib/helpers';
 import StarRating from '@/components/StarRating';
 import { useRouter } from 'next/navigation';
 
